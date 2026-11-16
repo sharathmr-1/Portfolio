@@ -7,7 +7,7 @@ export function ProjectCatalogue() {
     <section className="e-book-page" data-folio="Chapter III · Public projects" id="e-projects">
       <div className="e-chapter-head">
         <small>Chapter III<br />Public catalogue</small>
-        <h2>Projects and research.</h2>
+        <h2>Projects.</h2>
       </div>
       <div className="e-catalogue">
         {portfolio.projects.map((project) => (

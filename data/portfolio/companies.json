@@ -3,14 +3,14 @@
     "id": 1,
     "name": "MRI Software",
     "location": "Bangalore",
-    "displayLocation": "Bengaluru, India",
-    "description": "Full-stack and applied AI delivery across backend APIs, frontend workflows, identity, automation, production operations, and engineering mentorship for 55–60 client environments."
+    "displayLocation": "Bangalore, India",
+    "description": "QA automation and data validation for enterprise reporting, release workflows, and client-facing productivity features across multiple environments."
   },
   {
     "id": 2,
-    "name": "Epicor",
+    "name": "Testigma Software Technologies",
     "location": "Bangalore",
-    "displayLocation": "Bengaluru, India",
-    "description": "Backend feature development and defect resolution across .NET services and SQL-backed product workflows."
+    "displayLocation": "Bangalore, India",
+    "description": "Automation engineering for client application testing, API validation, and regression coverage in a SaaS testing platform."
   }
 ]

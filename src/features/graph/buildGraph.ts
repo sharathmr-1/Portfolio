@@ -65,7 +65,7 @@ export function buildGraph(data: PortfolioData) {
     links.push({ id, source, target, relation });
   }
 
-  const personId = "person:sumedh";
+  const personId = "person:sharath";
   addNode({ id: personId, type: "person", label: data.profile.name, meta: `${data.profile.role} · ${data.profile.location}`, description: data.profile.summary });
 
   data.companies.forEach((company) => addNode({ id: `company:${company.id}`, type: "company", label: company.name, meta: company.displayLocation, description: company.description }));

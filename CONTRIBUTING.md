@@ -48,7 +48,7 @@ The root `index.html` is only Vite’s mount document. It contains no portfolio 
 3. Preserve array order unless you intend to change the displayed and résumé order.
 4. Use `resumeBullet` when a professional-work item needs resume-specific phrasing; the web description and impact remain part of that same canonical record.
 5. Run `make check`.
-6. Review both the React app and `build/Sumedh_S_Bhat.pdf` before opening a pull request.
+6. Review both the React app and `build/Sharath_M_R.pdf` before opening a pull request.
 
 Zod validates the loaded JSON at runtime because TypeScript types alone cannot verify external JSON values. The schema rejects missing, misspelled, or incorrectly typed fields; its cross-record checks reject duplicate identifiers and broken company references before any projection is built.
 
@@ -89,7 +89,7 @@ This validates the canonical data, checks the Lua JSON loader, runs React tests 
 
 ## Releases
 
-A successful push to `master`, including a merged pull request, publishes the main resume. The workflow creates a `release-master-<run-number>` tag and attaches `Sumedh_S_Bhat.pdf`.
+A successful push to `master`, including a merged pull request, publishes the main resume. The workflow creates a `release-master-<run-number>` tag and attaches `Sharath_M_R.pdf`.
 
 Specialized resumes are published only when a tag beginning with `resume-` is pushed. See `docs/release-management.md` for the release lifecycle.
 

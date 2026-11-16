@@ -1,98 +1,109 @@
 [
   {
-    "id": "languages",
-    "group": "Languages",
-    "resumeGroup": "Languages",
+    "id": "testing",
+    "group": "Testing",
+    "resumeGroup": "Manual Testing",
     "items": [
-      "C#",
-      "TypeScript",
-      "Python",
-      "SQL",
-      "JavaScript"
-    ]
-  },
-  {
-    "id": "backend",
-    "group": "Backend & APIs",
-    "resumeGroup": "Backend and APIs",
-    "items": [
-      ".NET",
-      "ASP.NET Core",
-      "EF Core",
-      "FastAPI",
-      "REST APIs",
-      "SQL Server"
-    ]
-  },
-  {
-    "id": "frontend",
-    "group": "Frontend",
-    "resumeGroup": "Frontend",
-    "items": [
-      "Angular",
-      "RxJS",
-      "React",
-      "TanStack Start",
-      "Nuxt"
+      "Manual Testing",
+      "Automation Testing",
+      "API Testing",
+      "ETL/Data Validation",
+      "Power BI Report Testing"
     ],
     "resumeItems": [
-      "Angular",
-      "RxJS",
-      "React"
+      "Manual Testing",
+      "Automation Testing",
+      "API Testing",
+      "ETL/Data Validation",
+      "Power BI Report Testing"
+    ]
+  },
+  {
+    "id": "frameworks",
+    "group": "Automation & Frameworks",
+    "resumeGroup": "Automation Testing",
+    "items": [
+      "Selenium WebDriver",
+      "Playwright",
+      "TestNG",
+      "Java",
+      "TypeScript",
+      "Page Object Model (POM)",
+      "Hybrid Framework",
+      "Gherkin/BDD",
+      "REST Assured"
+    ],
+    "resumeItems": [
+      "Selenium WebDriver",
+      "Playwright",
+      "TestNG",
+      "Java",
+      "TypeScript",
+      "Page Object Model (POM)",
+      "Hybrid Framework",
+      "Gherkin/BDD",
+      "REST Assured"
+    ]
+  },
+  {
+    "id": "data",
+    "group": "Data & BI",
+    "resumeGroup": "ETL and Data Validation",
+    "items": [
+      "SQL",
+      "Power BI",
+      "DAX",
+      "Tabular Editor",
+      "Microsoft SQL Server",
+      "Azure Synapse"
+    ],
+    "resumeItems": [
+      "SQL",
+      "Power BI",
+      "DAX",
+      "Tabular Editor",
+      "Microsoft SQL Server",
+      "Azure Synapse"
     ]
   },
   {
     "id": "ai",
-    "group": "Applied AI",
-    "resumeGroup": "Applied AI",
+    "group": "AI & Copilot Tools",
+    "resumeGroup": "AI and Copilot Tools",
     "items": [
-      "LangGraph",
-      "MCP",
-      "LLM evaluation",
-      "NLP"
+      "GitHub Copilot",
+      "Claude AI",
+      "AI-assisted testing",
+      "Automation support"
     ],
     "resumeItems": [
-      "LangGraph",
-      "MCP",
-      "LLM Evaluation"
+      "GitHub Copilot",
+      "Claude AI",
+      "AI-assisted testing",
+      "Automation support"
     ]
   },
   {
-    "id": "security",
-    "group": "Security",
-    "resumeGroup": "Security",
+    "id": "tools",
+    "group": "Tools & Delivery",
+    "resumeGroup": "Tools and Delivery",
     "items": [
-      "OIDC",
-      "Microsoft Entra ID",
-      "multi-tenant authorization",
-      "row-level access control"
+      "Jira",
+      "Jira Xray",
+      "Postman",
+      "Git",
+      "GitHub Actions",
+      "Agile",
+      "Scrum"
     ],
     "resumeItems": [
-      "OIDC",
-      "Microsoft Entra ID",
-      "Multi-Tenant Authorization",
-      "Row-Level Access Control"
-    ]
-  },
-  {
-    "id": "delivery",
-    "group": "Delivery & quality",
-    "resumeGroup": "Testing and CI/CD",
-    "items": [
-      "xUnit",
-      "Moq",
-      "Cypress",
-      "Vitest",
+      "Jira",
+      "Jira Xray",
+      "Postman",
+      "Git",
       "GitHub Actions",
-      "Azure DevOps",
-      "Cloudflare"
-    ],
-    "resumeItems": [
-      "xUnit",
-      "Moq",
-      "Cypress",
-      "GitHub Actions",
-      "Azure DevOps"
+      "Agile",
+      "Scrum"
     ]
   }
 ]

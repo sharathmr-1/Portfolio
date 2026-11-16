@@ -1,14 +1,14 @@
 {
-  "name": "Sumedh S Bhat",
-  "role": "Software Engineer II",
-  "focus": "Full Stack and Applied AI",
+  "name": "Sharath M R",
+  "role": "QA Engineer II",
+  "focus": "Quality Engineering and Test Automation",
   "location": "Bengaluru, India",
-  "phone": "7892079226",
-  "email": "sumedhbhat01@icloud.com",
-  "github": "https://github.com/Sumedhbhat/",
-  "githubLabel": "github.com/Sumedhbhat",
-  "linkedin": "https://www.linkedin.com/in/sumedh-bhat-7ba6bb12b/",
-  "linkedinLabel": "linkedin.com/in/sumedh-s-bhat",
-  "summary": "I build production software across backend APIs, frontend workflows, identity, platform automation, and applied AI. My work spans architecture through delivery, with a focus on systems that are easier to operate, safer to scale, and clearer for the people using them.",
-  "resumeSummary": "Software Engineer II with 3+ years building production full-stack applications and applied AI systems. Own architecture and delivery across backend APIs, frontend workflows, identity, and automation for 55–60 client environments; mentor engineers and review production code."
+  "phone": "9743399491",
+  "email": "sharathmr2552@gmail.com",
+  "github": "https://github.com/",
+  "githubLabel": "github.com",
+  "linkedin": "https://www.linkedin.com/",
+  "linkedinLabel": "linkedin.com",
+  "summary": "QA Engineer with 3+ years of experience in test automation and SQL-based data validation, spanning ETL flows, Power BI reporting, REST API testing, and release-quality validation for Agile delivery teams.",
+  "resumeSummary": "QA Engineer with 3+ years of experience in test automation and SQL-based data validation, including ETL and Power BI report testing. Automated 180+ test cases with Playwright and TypeScript, cutting regression time by 40%. Skilled in DAX to-SQL validation, REST API testing, and Agile delivery."
 }

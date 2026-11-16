@@ -40,7 +40,7 @@
 .f-welcome b { color:var(--signal); font-weight:500; }
 .f-entry { margin-bottom:24px; }
 .f-command { display:grid; grid-template-columns:auto minmax(0,1fr); gap:9px; margin-bottom:11px; color:#effff9; font:400 14px/1.55 "DM Mono",monospace; white-space:pre-wrap; overflow-wrap:anywhere; }
-.f-command::before { content:"sumedh.duckdb>"; color:var(--signal); }
+.f-command::before { content:"sharath.duckdb>"; color:var(--signal); }
 .f-result-meta { margin:0 0 9px; color:#78908a; font:400 12px "DM Mono",monospace; }
 .f-result-wrap { max-width:100%; overflow:auto; }
 .f-result { width:max-content; min-width:100%; border-collapse:collapse; font:400 13px/1.5 "DM Mono",monospace; }

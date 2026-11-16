@@ -108,7 +108,7 @@ export function ReaderEdition({ onNavigate }: ReaderEditionProps) {
         <section className="e-book-page" data-folio="Chapter V · Notes & colophon" id="e-colophon">
           <div className="e-chapter-head">
             <small>Chapter V<br />Back matter</small>
-            <h2>Recognition, education, and publication notes.</h2>
+            <h2>Recognition and education.</h2>
           </div>
           <div className="e-colophon">
             <div>

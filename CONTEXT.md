@@ -2,7 +2,7 @@
 
 ## Portfolio record
 
-The canonical set of authored career facts used to present Sumedh’s professional history. A portfolio record includes identity, employment, work, projects, skills, recognition, and education.
+The canonical set of authored career facts used to present Sharath’s professional history. A portfolio record includes identity, employment, work, projects, skills, recognition, and education.
 
 ## Domain collection
 

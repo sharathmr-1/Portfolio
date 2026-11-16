@@ -57,8 +57,8 @@ For example, workflow run number `42` creates:
 
 - Git tag: `release-master-42`
 - Release title: `Resume - release-master-42`
-- Workflow artifact: `Sumedh_S_Bhat-master`
-- Release PDF: `Sumedh_S_Bhat.pdf`
+- Workflow artifact: `Sharath_M_R-master`
+- Release PDF: `Sharath_M_R.pdf`
 
 Git tags reference commits rather than branches. The generated tag points to the exact `master` commit that passed the workflow.
 
@@ -93,8 +93,8 @@ For `resume-cybersecurity-v1`, the workflow creates:
 
 - Git tag: `resume-cybersecurity-v1`, using the tag that was pushed
 - Release title: `Resume - resume-cybersecurity-v1`
-- Workflow artifact: `Sumedh_S_Bhat-resume-cybersecurity-v1`
-- Release PDF: `Sumedh_S_Bhat-resume-cybersecurity-v1.pdf`
+- Workflow artifact: `Sharath_M_R-resume-cybersecurity-v1`
+- Release PDF: `Sharath_M_R-resume-cybersecurity-v1.pdf`
 
 ## Specialized tag naming
 

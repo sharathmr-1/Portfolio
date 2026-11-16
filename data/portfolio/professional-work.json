@@ -2,123 +2,92 @@
   {
     "id": 1,
     "companyId": 1,
-    "title": "Deployment orchestration platform",
-    "status": "Delivered",
-    "description": "Led end-to-end delivery of a .NET and Azure Functions platform that coordinates scheduled CI/CD workflows and exposes rollout state through a REST status API across 55–60 client environments.",
-    "impact": "Replaced a manually monitored monthly rollout that required 1–2 days.",
-    "resumeBullet": "Led end-to-end delivery of a production deployment orchestration platform using .NET, Azure Functions, scheduled CI/CD workflows, and a REST status API across 55–60 client environments, replacing a manually monitored monthly rollout that required 1–2 days.",
+    "title": "Regression automation and release validation",
+    "status": "Current",
+    "description": "Owns end-to-end testing for critical modules and ensures release readiness across client workflows and automation coverage.",
+    "impact": "Automated 180+ test cases with Playwright and TypeScript, reducing regression execution time by 40%.",
+    "resumeBullet": "Promoted in Feb 2026 for owning modules end-to-end. Automated 180+ test cases with Playwright and TypeScript, cutting regression time by 40%.",
     "tags": [
-      ".NET",
-      "Azure Functions",
-      "REST",
-      "CI/CD"
+      "Playwright",
+      "TypeScript",
+      "Regression",
+      "GitHub Actions"
     ]
   },
   {
     "id": 2,
     "companyId": 1,
-    "title": "Multi-tenant connection service",
-    "status": "Delivered",
-    "description": "Architected a .NET proxy and connection-management service across six Kubernetes replicas, with tenant-, group-, and user-scoped authorization enforced through backend filters and row-level controls.",
-    "impact": "Supported approximately 600 concurrent connections while avoiding repeated 6–7 second setup latency and socket exhaustion.",
-    "resumeBullet": "Architected a multi-tenant .NET proxy and connection-management service across six Kubernetes replicas, eliminating repeated setup latency of 6 to 7 seconds and supporting approximately 600 concurrent connections without socket exhaustion; enforced tenant-, group-, and user-scoped authorization through backend query filters and row-level access controls.",
+    "title": "CI and code quality acceleration",
+    "status": "Current",
+    "description": "Runs automated regression suites in GitHub Actions for release validation and uses GitHub Copilot to improve productivity in scripting and refactoring.",
+    "impact": "Speeds up test authoring, SQL query writing, and code maintenance while keeping release quality high.",
+    "resumeBullet": "Ran automated regression suites in GitHub Actions CI for release validation, and used GitHub Copilot to speed up test script development, SQL query writing, and code refactoring.",
     "tags": [
-      ".NET",
-      "Kubernetes",
-      "Authorization",
-      "SQL"
+      "GitHub Actions",
+      "GitHub Copilot",
+      "SQL",
+      "Automation"
     ]
   },
   {
     "id": 3,
     "companyId": 1,
-    "title": "Production monitoring system",
-    "status": "Delivered",
-    "description": "Built a full-stack tracking UI, orchestration layer, and server- and region-level health APIs for 55–60 clients, including automated incidents, retries, and recovery tracking.",
-    "impact": "Surfaced failures that had previously remained undetected for up to a month.",
-    "resumeBullet": "Built a full-stack production monitoring system spanning a tracking UI, orchestration, and server- and region-level health APIs for 55–60 clients; automated incidents, retries, and recovery tracking while exposing failures previously undetected for up to a month.",
+    "title": "ETL and Power BI validation",
+    "status": "Completed",
+    "description": "Validated ETL data flows and Power BI reports, ensuring KPI accuracy, filter behavior, and drill-through logic for business-critical dashboards.",
+    "impact": "Converted DAX logic into SQL to verify business rules and reduce reporting defects before deployment.",
+    "resumeBullet": "Validated ETL data flows and Power BI reports (KPIs, filters, drill-throughs) using complex SQL, converting DAX calculations into SQL to verify business logic.",
     "tags": [
-      "Angular",
-      ".NET",
-      "Health APIs",
-      "Automation"
+      "SQL",
+      "Power BI",
+      "DAX",
+      "ETL",
+      "Data Validation"
     ]
   },
   {
     "id": 4,
     "companyId": 1,
-    "title": "Property-risk insight workflow",
-    "status": "Evaluating",
-    "description": "Owned technical planning and co-designed a six-node applied AI workflow that generates up to ten daily property-risk insights per user. Added precomputed benchmarks and initiated a six-criteria evaluation system.",
-    "impact": "Reduced token usage while establishing a repeatable LLM-as-judge quality process.",
-    "resumeBullet": "Owned technical planning and co-designed a six-node applied AI workflow using Python, LangGraph, FastAPI, and MCP to generate up to 10 daily property-risk insights per user; added precomputed benchmarks to reduce token usage and initiated six-criteria LLM-as-judge evaluation.",
+    "title": "Web test strategy and defect management",
+    "status": "Completed",
+    "description": "Designed Gherkin-based test cases, executed manual verification, coordinated Jira Xray workflows, and led root-cause analysis across product teams.",
+    "impact": "Improved release confidence and reduced leakage by tracking defects and preparing QA sign-offs for each release.",
+    "resumeBullet": "Designed and executed manual test cases for web applications. Wrote test cases in Gherkin (Given/When/Then) syntax and managed test cases, test cycles, and execution in Jira Xray. Led root cause analysis with developers, managed defects in JIRA, and prepared test plans and QA sign-offs for each release.",
     "tags": [
-      "Python",
-      "LangGraph",
-      "FastAPI",
-      "MCP",
-      "LLM evaluation"
+      "Gherkin",
+      "Jira Xray",
+      "Defect Management",
+      "Manual Testing"
     ]
   },
   {
     "id": 5,
-    "companyId": 1,
-    "title": "Identity and access provisioning",
-    "status": "Delivered",
-    "description": "Automated identity and application access across approximately 50 clients using GitHub Apps, GitHub Actions, and Microsoft Entra ID groups.",
-    "impact": "Reduced ticket-driven onboarding from 1–2 days to approximately 15 minutes.",
-    "resumeBullet": "Automated identity and application-access provisioning with GitHub Apps, GitHub Actions, and Microsoft Entra ID groups across approximately 50 clients, reducing ticket-driven onboarding from 1–2 days to approximately 15 minutes.",
+    "companyId": 2,
+    "title": "Client automation delivery",
+    "status": "Completed",
+    "description": "Automated client application test cases in Testigma based on product requirements and acted as the primary point of contact for automation queries.",
+    "impact": "Enabled faster client validation and better alignment between requirements and test execution.",
+    "resumeBullet": "Automated client application test cases in the Testigma tool based on their requirements, and served as the client point of contact for requirements and automation queries.",
     "tags": [
-      "GitHub Apps",
-      "GitHub Actions",
-      "Entra ID",
-      "OIDC"
+      "Testigma",
+      "Automation",
+      "Client Communication",
+      "Test Design"
     ]
   },
   {
     "id": 6,
-    "companyId": 1,
-    "title": "Dashboard state and publishing",
-    "status": "Delivered",
-    "description": "Built state-saving for reports monitoring thousands of properties, preserving default and draft views and promoting drafts when a report is published.",
-    "impact": "Removed manual post-deployment setup and received positive feedback from 20+ clients.",
-    "resumeBullet": "Built a dashboard state-saving feature for reports monitoring thousands of properties, preserving default and draft views and promoting drafts on publication; eliminated manual post-deployment configuration and received positive feedback from 20+ clients.",
-    "tags": [
-      "Angular",
-      "RxJS",
-      "State design",
-      "Publishing"
-    ]
-  },
-  {
-    "id": 7,
-    "companyId": 1,
-    "title": "Engineering mentorship and review",
-    "status": "Current",
-    "description": "Mentor two junior engineers on frontend design and implementation and review production code for four teammates across full-stack and applied AI work.",
-    "impact": "Provide architectural guidance and knowledge transfer across the team.",
-    "resumeBullet": "Mentor two junior engineers on frontend design and implementation; review production code for four teammates across full-stack and applied AI work, providing architectural guidance and knowledge transfer.",
-    "tags": [
-      "Mentoring",
-      "Code review",
-      "Architecture",
-      "Frontend"
-    ]
-  },
-  {
-    "id": 8,
     "companyId": 2,
-    "title": "Backend product development",
+    "title": "API validation and regression support",
     "status": "Completed",
-    "description": "Contributed to backend feature development and defect resolution using C#, .NET Core, EF Core, SQL Server, and Azure DevOps.",
-    "impact": "Delivered backend features and production defect fixes during the internship.",
-    "resumeBullet": "Contributed to backend feature development and defect resolution using C#, .NET Core, EF Core, SQL Server, and Azure DevOps.",
+    "description": "Performed API testing with Postman and assisted in automation using REST Assured while contributing to product enhancements and quality review processes.",
+    "impact": "Increased confidence in product releases by validating payloads, authorization flows, response times, and regression coverage.",
+    "resumeBullet": "Performed API testing with Postman (payloads, status codes, authorization, response time) and assisted in API automation using REST Assured. Developed reusable add-ons, contributed to product enhancements, and reviewed scripts with team members. Logged defects and CRs in JIRA, prepared regression reports, and gave QA sign-off.",
     "tags": [
-      "C#",
-      ".NET Core",
-      "EF Core",
-      "SQL Server",
-      "Azure DevOps"
+      "Postman",
+      "REST Assured",
+      "API Testing",
+      "Regression"
     ]
   }
 ]
