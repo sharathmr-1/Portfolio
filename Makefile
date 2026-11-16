@@ -6,7 +6,7 @@ BUILD_DIR := build
 # validated by the Lua test and the full LuaLaTeX build instead.
 CHK_TEX_SOURCES := $(wildcard source/*.tex) $(wildcard source/config/*.tex) \
 	$(wildcard source/utils/*.tex) source/sections/summary.tex
-PDF := $(BUILD_DIR)/Sumedh_S_Bhat.pdf
+PDF := $(BUILD_DIR)/Sharath_M_R.pdf
 LATEXMK := latexmk
 
 .PHONY: all build check lint test web-check clean
@@ -16,7 +16,7 @@ all: check
 build:
 	@mkdir -p $(BUILD_DIR)
 	$(LATEXMK) -lualatex -file-line-error -halt-on-error -interaction=nonstopmode \
-		-outdir=$(BUILD_DIR) -jobname=Sumedh_S_Bhat $(SOURCE)
+		-outdir=$(BUILD_DIR) -jobname=Sharath_M_R $(SOURCE)
 
 lint:
 	chktex -q -I0 -l .chktexrc $(CHK_TEX_SOURCES)
@@ -30,12 +30,12 @@ web-check:
 
 check: test lint build web-check
 	@test -s $(PDF)
-	@if grep -Eq 'Overfull \\hbox|fancyhdr Warning' $(BUILD_DIR)/Sumedh_S_Bhat.log; then \
+	@if grep -Eq 'Overfull \\hbox|fancyhdr Warning' $(BUILD_DIR)/Sharath_M_R.log; then \
 		echo "Layout warning found in the LaTeX log"; \
 		exit 1; \
 	fi
 	@echo "Created $(PDF)"
 
 clean:
-	$(LATEXMK) -C -lualatex -outdir=$(BUILD_DIR) -jobname=Sumedh_S_Bhat $(SOURCE)
+	$(LATEXMK) -C -lualatex -outdir=$(BUILD_DIR) -jobname=Sharath_M_R $(SOURCE)
 	rm -rf $(BUILD_DIR) dist
