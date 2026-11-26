@@ -26,7 +26,7 @@ The benchmark uses current role patterns from official employer postings. A repr
 
 Strong evidence:
 
-- 3+ years of experience and progression from Software Engineer I to Software Engineer II.
+- 4 years of experience and progression from Software Engineer I to Software Engineer II.
 - Production architecture and end-to-end delivery across 55--60 client environments.
 - Approximately 600 concurrent connections across six replicas.
 - Full-stack delivery across frontend workflows, backend APIs, SQL Server, identity, CI/CD, and automated testing.
@@ -52,7 +52,7 @@ Strong evidence:
 
 Residual risks:
 
-- 3+ years is below the hard minimum in many Senior postings; some current roles ask for eight or more years.
+- 4 years is below the hard minimum in some Senior postings; some current roles ask for eight or more years.
 - The resume does not yet prove cross-team roadmap influence, design-document ownership, organization-wide standards, on-call ownership, SLO/SLA responsibility, or multi-engineer project leadership from design through operations.
 - Kubernetes appears only as factual deployment context; the resume does not claim broad cloud-platform, microservices, Docker, or Kafka expertise.
 - Business impact is mostly operational; revenue, cost, adoption, support-volume, latency-percentile, or availability metrics would strengthen future Senior applications.
