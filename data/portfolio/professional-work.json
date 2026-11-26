@@ -5,8 +5,8 @@
     "title": "Regression automation and release validation",
     "status": "Current",
     "description": "Owns end-to-end testing for critical modules and ensures release readiness across client workflows and automation coverage.",
-    "impact": "Automated 180+ test cases with Playwright and TypeScript, reducing regression execution time by 40%.",
-    "resumeBullet": "Promoted in Feb 2026 for owning modules end-to-end. Automated 180+ test cases with Playwright and TypeScript, cutting regression time by 40%.",
+    "impact": "Automated 140+ test cases with Playwright and TypeScript, reducing regression execution time by 30%.",
+    "resumeBullet": "Promoted in Feb 2026 for owning modules end-to-end. Automated 140+ test cases with Playwright and TypeScript, cutting regression time by 30%.",
     "tags": [
       "Playwright",
       "TypeScript",
